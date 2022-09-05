@@ -5,7 +5,6 @@ video = cv2.VideoCapture(0)
 image = cv2.imread("img.jpeg") 
   
 while True: 
-  
     ret, frame = video.read() 
     print(frame)
     frame = cv2.resize(frame, (640, 480)) 
